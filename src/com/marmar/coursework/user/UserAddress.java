@@ -13,7 +13,7 @@ public class UserAddress {
         this.city = city;
         this.address = address;
         this.phoneNumber = phoneNumber;
-        delivery = new Pickup();
+      //  delivery = new Pickup();
     }
 
     public UserAddress(String city, String address, String phoneNumber, Delivery delivery) {
