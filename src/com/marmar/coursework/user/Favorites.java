@@ -10,7 +10,7 @@ public class Favorites {
 
     private final List<FavoriteItem> favorites = new ArrayList<>();
 
-    public void addToFavorites(Product product) {
+    public void addItem(Product product) {
         favorites.add(new FavoriteItem(product));
     }
 

@@ -1,7 +1,7 @@
 package com.marmar.coursework.user;
 
 import com.marmar.coursework.delivery.Delivery;
-import com.marmar.coursework.delivery.Pickup;
+import com.marmar.coursework.delivery.NovaPoshta;
 
 public class UserAddress {
     private final String city;
@@ -13,7 +13,7 @@ public class UserAddress {
         this.city = city;
         this.address = address;
         this.phoneNumber = phoneNumber;
-      //  delivery = new Pickup();
+        this.delivery = new NovaPoshta();
     }
 
     public UserAddress(String city, String address, String phoneNumber, Delivery delivery) {

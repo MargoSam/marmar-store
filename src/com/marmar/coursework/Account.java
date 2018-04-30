@@ -1,6 +1,5 @@
 package com.marmar.coursework;
 
-
 public class Account {
     private long money;
 
