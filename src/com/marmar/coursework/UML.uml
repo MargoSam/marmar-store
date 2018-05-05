@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.marmar.coursework.order.Order</OriginalElement>
+  <nodes>
+    <node x="1423.5464015151515" y="2246.0">com.marmar.coursework.delivery.NovaPoshta</node>
+    <node x="587.7236842105264" y="0.0">com.marmar.coursework.product.Color</node>
+    <node x="357.22368421052636" y="600.0">com.marmar.coursework.product.Product</node>
+    <node x="1288.2236842105265" y="2064.0">com.marmar.coursework.delivery.Delivery</node>
+    <node x="1203.5643999202548" y="2854.0">com.marmar.coursework.user.UserAddressBook</node>
+    <node x="241.60606658692143" y="2469.0">com.marmar.coursework.user.Gender</node>
+    <node x="1265.2954605263158" y="2360.0">com.marmar.coursework.user.UserAddress</node>
+    <node x="1137.8704505582132" y="3962.0">com.marmar.coursework.Runner</node>
+    <node x="483.47368421052636" y="1996.0">com.marmar.coursework.user.Favorites</node>
+    <node x="513.9736842105264" y="1617.5">com.marmar.coursework.user.FavoriteItem</node>
+    <node x="889.2727332535882" y="2881.5">com.marmar.coursework.user.UserOrdersHistory</node>
+    <node x="748.36211722488" y="3283.0">com.marmar.coursework.user.User</node>
+    <node x="650.2727332535882" y="2854.0">com.marmar.coursework.Account</node>
+    <node x="36.5" y="2746.0">com.marmar.coursework.user.UserData</node>
+    <node x="462.72368421052636" y="175.5">com.marmar.coursework.product.Size</node>
+    <node x="822.8310665869215" y="1195.0">com.marmar.coursework.order.OrderItem</node>
+    <node x="1011.9736842105264" y="1564.0">com.marmar.coursework.order.Order</node>
+    <node x="1166.7236842105262" y="1290.5">com.marmar.coursework.order.OrderStatus</node>
+    <node x="1691.0454605263158" y="2922.5">com.marmar.coursework.delivery.UkrPoshta</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.marmar.coursework.delivery.NovaPoshta" target="com.marmar.coursework.order.Order">
+      <point x="75.0" y="-32.0" />
+      <point x="1648.5464015151515" y="2226.0" />
+      <point x="1673.7236842105265" y="2226.0" />
+      <point x="1673.7236842105265" y="1966.0" />
+      <point x="1283.9736842105262" y="1966.0" />
+      <point x="112.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.Delivery" target="com.marmar.coursework.user.UserAddress">
+      <point x="0.0" y="32.0" />
+      <point x="1438.2236842105265" y="2226.0" />
+      <point x="1413.0464015151515" y="2226.0" />
+      <point x="1413.0464015151515" y="2340.0" />
+      <point x="1451.7954605263158" y="2340.0" />
+      <point x="0.0" y="-168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.Favorites" target="com.marmar.coursework.user.FavoriteItem">
+      <point x="27.833333333333258" y="-100.0" />
+      <point x="678.3070175438596" y="1976.0" />
+      <point x="708.1403508771931" y="1976.0" />
+      <point x="77.66666666666674" y="127.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.UserData" target="com.marmar.coursework.user.Gender">
+      <point x="-98.0" y="-208.5" />
+      <point x="134.5" y="2726.0" />
+      <point x="262.77273325358817" y="2726.0" />
+      <point x="-42.33333333333326" y="59.0" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.UkrPoshta" target="com.marmar.coursework.user.UserAddress">
+      <point x="-100.0" y="-32.0" />
+      <point x="1741.0454605263158" y="2726.0" />
+      <point x="1607.2121271929823" y="2726.0" />
+      <point x="155.41666666666652" y="168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.FavoriteItem" target="com.marmar.coursework.order.OrderItem">
+      <point x="87.375" y="-127.5" />
+      <point x="717.8486842105264" y="1544.0" />
+      <point x="895.4310665869214" y="1544.0" />
+      <point x="-48.40000000000009" y="154.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.UserAddress" target="com.marmar.coursework.delivery.NovaPoshta">
+      <point x="74.60000000000002" y="-168.0" />
+      <point x="1526.3954605263157" y="2340.0" />
+      <point x="1473.5464015151515" y="2340.0" />
+      <point x="-100.0" y="32.0" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.NovaPoshta" target="com.marmar.coursework.delivery.Delivery">
+      <point x="-75.0" y="-32.0" />
+      <point x="60.0" y="32.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.user.UserAddress">
+      <point x="52.5" y="-32.0" />
+      <point x="1295.3704505582132" y="3912.0" />
+      <point x="1599.8320075757572" y="3912.0" />
+      <point x="1599.8320075757572" y="2716.0" />
+      <point x="1545.0454605263158" y="2716.0" />
+      <point x="93.25" y="168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.product.Color">
+      <point x="97.5" y="-32.0" />
+      <point x="1340.3704505582132" y="3942.0" />
+      <point x="2024.5454605263158" y="3942.0" />
+      <point x="2024.5454605263158" y="570.0" />
+      <point x="675.2236842105264" y="570.0" />
+      <point x="35.0" y="275.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.UserAddress" target="com.marmar.coursework.delivery.Delivery">
+      <point x="-149.20000000000005" y="-168.0" />
+      <point x="1302.5954605263155" y="2330.0" />
+      <point x="1391.0464015151515" y="2330.0" />
+      <point x="1391.0464015151515" y="2226.0" />
+      <point x="1318.2236842105265" y="2226.0" />
+      <point x="-120.0" y="32.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.Favorites" target="com.marmar.coursework.order.Order">
+      <point x="83.5" y="-100.0" />
+      <point x="733.9736842105264" y="1946.0" />
+      <point x="1027.9736842105262" y="1946.0" />
+      <point x="-144.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.FavoriteItem" target="com.marmar.coursework.product.Product">
+      <point x="-87.375" y="-127.5" />
+      <point x="543.0986842105264" y="1544.0" />
+      <point x="566.7236842105264" y="1544.0" />
+      <point x="566.7236842105264" y="1175.0" />
+      <point x="528.7236842105264" y="1175.0" />
+      <point x="-49.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.user.UserData">
+      <point x="-52.5" y="-32.0" />
+      <point x="1190.3704505582132" y="3912.0" />
+      <point x="183.5" y="3912.0" />
+      <point x="-49.0" y="208.5" />
+    </edge>
+    <edge source="com.marmar.coursework.order.Order" target="com.marmar.coursework.order.OrderItem">
+      <point x="-80.0" y="-181.0" />
+      <point x="1091.9736842105262" y="1534.0" />
+      <point x="992.2310665869215" y="1534.0" />
+      <point x="48.40000000000009" y="154.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.user.UserData">
+      <point x="-148.63157894736833" y="-289.5" />
+      <point x="776.2305382775116" y="3253.0" />
+      <point x="379.5" y="3253.0" />
+      <point x="147.0" y="208.5" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.NovaPoshta" target="com.marmar.coursework.user.UserAddress">
+      <point x="0.0" y="32.0" />
+      <point x="1573.5464015151515" y="2340.0" />
+      <point x="1600.9954605263156" y="2340.0" />
+      <point x="149.20000000000005" y="-168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.order.Order" target="com.marmar.coursework.order.OrderStatus">
+      <point x="80.0" y="-181.0" />
+      <point x="1251.9736842105262" y="1544.0" />
+      <point x="1272.4736842105262" y="1544.0" />
+      <point x="35.25" y="59.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.UserOrdersHistory" target="com.marmar.coursework.order.Order">
+      <point x="-61.25" y="-73.0" />
+      <point x="950.5227332535882" y="2726.0" />
+      <point x="1022.7297348484847" y="2726.0" />
+      <point x="1022.7297348484847" y="1966.0" />
+      <point x="1091.9736842105262" y="1966.0" />
+      <point x="-80.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.user.User">
+      <point x="-22.5" y="-32.0" />
+      <point x="1220.3704505582132" y="3892.0" />
+      <point x="836.61211722488" y="3892.0" />
+      <point x="-88.25" y="289.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.user.Favorites">
+      <point x="-92.8947368421052" y="-289.5" />
+      <point x="831.9673803827748" y="3223.0" />
+      <point x="628.7727332535882" y="3223.0" />
+      <point x="628.7727332535882" y="2216.0" />
+      <point x="650.4736842105264" y="2216.0" />
+      <point x="0.0" y="100.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.user.UserAddress">
+      <point x="111.47368421052624" y="-289.5" />
+      <point x="1036.3358014354062" y="3233.0" />
+      <point x="1193.0643999202548" y="3233.0" />
+      <point x="1193.0643999202548" y="2716.0" />
+      <point x="1296.378793859649" y="2716.0" />
+      <point x="-155.41666666666663" y="168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.product.Product" target="com.marmar.coursework.product.Size">
+      <point x="-165.375" y="-262.5" />
+      <point x="412.34868421052636" y="580.0" />
+      <point x="515.2236842105264" y="580.0" />
+      <point x="0.0" y="99.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.UserAddressBook" target="com.marmar.coursework.user.UserAddress">
+      <point x="-83.5" y="-100.5" />
+      <point x="1287.0643999202548" y="2726.0" />
+      <point x="1358.5454605263158" y="2726.0" />
+      <point x="-93.25" y="168.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.product.Product">
+      <point x="-130.05263157894728" y="-289.5" />
+      <point x="794.8094856459327" y="3243.0" />
+      <point x="472.97368421052636" y="3243.0" />
+      <point x="472.97368421052636" y="1175.0" />
+      <point x="430.72368421052636" y="1175.0" />
+      <point x="-147.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.Favorites" target="com.marmar.coursework.product.Product">
+      <point x="-139.16666666666674" y="-100.0" />
+      <point x="511.3070175438596" y="1976.0" />
+      <point x="503.47368421052636" y="1976.0" />
+      <point x="503.47368421052636" y="1175.0" />
+      <point x="479.72368421052636" y="1175.0" />
+      <point x="-98.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.Account">
+      <point x="-18.57894736842104" y="-289.5" />
+      <point x="906.2831698564589" y="3183.0" />
+      <point x="832.7727332535882" y="3183.0" />
+      <point x="73.0" y="100.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.user.UserAddressBook">
+      <point x="130.05263157894728" y="-289.5" />
+      <point x="1054.9147488038273" y="3243.0" />
+      <point x="1236.964399920255" y="3243.0" />
+      <point x="-133.60000000000002" y="100.5" />
+    </edge>
+    <edge source="com.marmar.coursework.order.Order" target="com.marmar.coursework.product.Product">
+      <point x="133.33333333333326" y="-181.0" />
+      <point x="1305.3070175438597" y="1544.0" />
+      <point x="1318.2236842105262" y="1544.0" />
+      <point x="1318.2236842105262" y="1155.0" />
+      <point x="724.7236842105264" y="1155.0" />
+      <point x="147.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.UkrPoshta" target="com.marmar.coursework.order.Order">
+      <point x="100.0" y="-32.0" />
+      <point x="1941.0454605263158" y="2726.0" />
+      <point x="1920.4736842105262" y="2726.0" />
+      <point x="1920.4736842105262" y="1956.0" />
+      <point x="1315.9736842105262" y="1956.0" />
+      <point x="144.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.UkrPoshta" target="com.marmar.coursework.delivery.Delivery">
+      <point x="0.0" y="-32.0" />
+      <point x="1841.0454605263158" y="2726.0" />
+      <point x="1865.8964015151514" y="2726.0" />
+      <point x="1865.8964015151514" y="2216.0" />
+      <point x="1558.2236842105265" y="2216.0" />
+      <point x="120.0" y="32.0" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.user.UserOrdersHistory">
+      <point x="0.0" y="-289.5" />
+      <point x="924.86211722488" y="3263.0" />
+      <point x="930.1060665869215" y="3263.0" />
+      <point x="-81.66666666666663" y="73.0" />
+    </edge>
+    <edge source="com.marmar.coursework.order.OrderItem" target="com.marmar.coursework.product.Product">
+      <point x="-60.5" y="-154.5" />
+      <point x="883.3310665869215" y="1175.0" />
+      <point x="626.7236842105264" y="1175.0" />
+      <point x="49.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.user.UserAddressBook">
+      <point x="7.5" y="-32.0" />
+      <point x="1250.3704505582132" y="3882.0" />
+      <point x="1460.0204505582133" y="3882.0" />
+      <point x="1460.0204505582133" y="3263.0" />
+      <point x="1437.364399920255" y="3263.0" />
+      <point x="66.80000000000007" y="100.5" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.user.Gender">
+      <point x="-37.5" y="-32.0" />
+      <point x="1205.3704505582132" y="3902.0" />
+      <point x="439.0" y="3902.0" />
+      <point x="439.0" y="2726.0" />
+      <point x="347.4393999202547" y="2726.0" />
+      <point x="42.33333333333326" y="59.0" />
+    </edge>
+    <edge source="com.marmar.coursework.product.Product" target="com.marmar.coursework.product.Color">
+      <point x="165.375" y="-262.5" />
+      <point x="743.0986842105264" y="580.0" />
+      <point x="640.2236842105264" y="580.0" />
+      <point x="0.0" y="275.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.delivery.NovaPoshta">
+      <point x="67.5" y="-32.0" />
+      <point x="1310.3704505582132" y="3922.0" />
+      <point x="1680.5454605263158" y="3922.0" />
+      <point x="1680.5454605263158" y="2340.0" />
+      <point x="1673.5464015151515" y="2340.0" />
+      <point x="100.0" y="32.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.product.Product">
+      <point x="-82.5" y="-32.0" />
+      <point x="1160.3704505582132" y="3932.0" />
+      <point x="26.0" y="3932.0" />
+      <point x="26.0" y="1175.0" />
+      <point x="381.72368421052636" y="1175.0" />
+      <point x="-196.0" y="262.5" />
+    </edge>
+    <edge source="com.marmar.coursework.user.User" target="com.marmar.coursework.order.Order">
+      <point x="92.8947368421052" y="-289.5" />
+      <point x="1017.7568540669852" y="3223.0" />
+      <point x="1166.7727332535883" y="3223.0" />
+      <point x="1166.7727332535883" y="1976.0" />
+      <point x="1219.9736842105262" y="1976.0" />
+      <point x="48.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.delivery.Delivery" target="com.marmar.coursework.order.Order">
+      <point x="0.0" y="-32.0" />
+      <point x="1438.2236842105265" y="1976.0" />
+      <point x="1251.9736842105262" y="1976.0" />
+      <point x="80.0" y="181.0" />
+    </edge>
+    <edge source="com.marmar.coursework.Runner" target="com.marmar.coursework.product.Size">
+      <point x="-97.5" y="-32.0" />
+      <point x="1145.3704505582132" y="3942.0" />
+      <point x="15.0" y="3942.0" />
+      <point x="15.0" y="570.0" />
+      <point x="480.22368421052636" y="570.0" />
+      <point x="-35.0" y="99.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5086687306501548" x="1444.6074254412658" y="3623.655508216677" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
